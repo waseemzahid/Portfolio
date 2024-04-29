@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import logo from '../assets/favicon.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -19,7 +20,12 @@ const Navbar = () => {
 
   return (
     <div className='bg-black text-gray-400 h-[100px] max-w-[1200px] mx-auto flex justify-between items-center'>
-      <h1 className='text-3xl font-bold primary-color ml-4'>Waseem Zahid</h1>
+      <a href='/'>
+        <div className='flex items-center'>
+        <img src={logo} alt='' width={40} height={30} />
+        <h1 className='text-2xl font-bold primary-color ml-2'>Waseem Zahid</h1>
+      </div>
+      </a>
       <ul className='hidden md:flex text-[20px]'>
         <li className='p-5 text-gradient-hover'><a href='#about' onClick={(e) => scrollToSection(e, 'about')}>About</a></li>
         <li className='p-5 text-gradient-hover'><a href='#work' onClick={(e) => scrollToSection(e, 'work')}>Work</a></li>

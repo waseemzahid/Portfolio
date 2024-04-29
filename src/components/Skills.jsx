@@ -20,7 +20,7 @@ const Skills = () => {
         <br />
         Stack
       </h2>
-      <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+      <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px] ">
         <img src={html} alt="" width={100} height={100} />
         <p className="mt-2">HTML</p>
       </div>
