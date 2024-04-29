@@ -6,7 +6,7 @@ import proj3 from '../assets/proj3.jpg'
 const Work = () => {
   return (
     <div className='max-w-[1200px] mx-auto p-5' id='work'>
-      <div className='pb-8'>
+      <div className='pb-8 text-center'>
         <h2 className='primary-color text-4xl mb-3 font-bold'>Work</h2>
         <p className='text-white sm:text-lg lg:text-xl'>
           Check out some of my recent work
