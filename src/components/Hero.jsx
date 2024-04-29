@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation'
 
 const Hero = () => {
   return (
-    <div className='grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] md:h-[70vh] mx-auto py-8 bg-black'>
+    <div className='grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] mx-auto py-8 bg-black' id='home'>
      <div className='mx-auto my-auto w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] bg-gradient-to-r from-orange-400 to-red-600 p-2 shadow-xl rounded-full flex justify-center items-center overflow-hidden'>
       <img src={heroImg} alt='heroImg' className='w-full h-full object-cover rounded-full'/>
       </div>
@@ -28,7 +28,7 @@ const Hero = () => {
           My name is Waseem Zahid and I have 1+ year experince in Web Development
         </p>
         <div className='my-8'>
-          <a href='/' className='px-6 py-3 w-full rounded-xl mr-4 
+          <a href='https://drive.google.com/uc?export=download&id=1cV38YMxDV0vurDhdjeUYjfkKPJkuvzDZ' className='px-6 py-3 w-full rounded-xl mr-4 
           bg-gradient-to-br from-orange-500 to-red-500 text-white'>
             Download CV</a>
           

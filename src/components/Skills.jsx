@@ -11,7 +11,7 @@ const Skills = () => {
   return (
     <div
       className="text-gray-400 md:h-[150px] max-w-[1200px] mx-auto grid grid-cols-4 items-center
-    md:flex md:justify-between md:items-center border border-white p-6"
+    md:flex md:justify-between md:items-center border border-white p-6 mt-6"
     >
       <h2 className="text-white text-2xl md:text-4xl font-bold m-4">
         My
