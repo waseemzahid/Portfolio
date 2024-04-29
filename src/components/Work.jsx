@@ -13,7 +13,7 @@ const Work = () => {
         </p>
       </div>
 
-      <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+      <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-4'>
         <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-1g 
         shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative'>
           <img src={proj2} layout="fill" objectFit="cover" alt="" />
