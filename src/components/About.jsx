@@ -9,7 +9,7 @@ const About = () => {
           <div className="mx-6">
             <h2 className="font-bold mb-6 primary-color text-[30px]">About Me</h2>
             <ul className="text-base lg:text-lg list-none">
-              <li className="mb-2 pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-500 before:text-[36px]">Proficient in React JS, Next JS & Node JS with experience in JavaScript.</li>
+              <li className="mb-2 pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-500 before:text-[36px]">Proficient in MERN Stack, React JS, Next JS & Node JS with experience in JavaScript.</li>
               <li className="mb-2 pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-500 before:text-[36px]">Skilled in utilizing Jira for task management, including creating and assigning tasks for efficient project execution.</li>
               <li className="mb-2 pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-500 before:text-[36px]">Experienced in setting up and managing CI/CD workflows, including creating pipelines and leveraging GitHub Actions for automated workflows.</li>
               <li className="mb-2 pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-500 before:text-[36px]">Proficient in utilizing frontend development frameworks such as Tailwind CSS, Material-UI, and Chakra-UI to create visually appealing and responsive web applications.</li>

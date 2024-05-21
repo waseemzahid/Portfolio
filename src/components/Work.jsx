@@ -2,6 +2,7 @@ import React from 'react'
 import proj1 from '../assets/proj1.jpg'
 import proj2 from '../assets/proj2.jpg'
 import proj3 from '../assets/proj3.jpg'
+import proj4 from '../assets/proj4.jpg'
 
 const Work = () => {
   return (
@@ -13,43 +14,79 @@ const Work = () => {
         </p>
       </div>
 
-      <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-4'>
-        <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-1g 
-        shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative'>
-          <img src={proj2} layout="fill" objectFit="cover" alt="" />
-          <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
-            <span className='text-2x1 font-bold text-white tracking-wider'></span>
-            <div className='pt-8 text-center'>
-              <a href="https://amazonpro-chi.vercel.app/" target='blank'>
-                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
-              </a>
-            </div>
+      <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-6'>
+        
+      <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[300px] md:h-[400px] bg-cover relative">
+        <img src={proj4} alt="Project Screenshot" className="w-full h-full object-cover" />
+        <div className="opacity-0 group-hover:opacity-100 bg-gray-900/70 absolute inset-0 flex flex-col justify-center items-center transition-opacity duration-300 px-6">
+          <span className="text-2xl font-bold primary-color tracking-wider text-center">MERN CHAT APP with Socket.io</span>
+            <ul className="text-base lg:text-lg list-none mt-4">
+              <li className="mb-2 text-white pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-600 before:text-[36px]"><span className='mr-2 font-bold text-orange-600'>Frameworks & Libraries:</span>React JS, Node JS, Express JS, Socket.IO</li>
+              <li className="mb-2 text-white pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-600 before:text-[36px]"><span className='mr-2 font-bold text-orange-600'>CSS Styling:</span>Tailwind CSS & Daisy UI</li>
+              <li className="mb-2 text-white pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-600 before:text-[36px]"><span className='mr-2 font-bold text-orange-600'>Database:</span>MONGODB</li>
+              <li className="mb-2 text-white pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-600 before:text-[36px]"><span className='mr-2 font-bold text-orange-600'>Software & Tools:</span>Visual Studio Code, Postman, MongoDB Compass</li>
+            </ul>
+          <div className="pt-8 text-center">
+          <a href="https://mern-chat-app-189n.onrender.com/" target="_blank" rel="noopener noreferrer" className='px-6 py-3 w-full rounded-xl mr-4 
+          bg-gradient-to-br from-orange-500 to-red-500 text-white'>
+            Live Link</a>
           </div>
         </div>
-        <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-1g 
-        shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative'>
-          <img src={proj1} layout="fill" objectFit="cover" alt="" />
-          <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
-            <span className='text-2x1 font-bold text-white tracking-wider'></span>
-            <div className='pt-8 text-center'>
-              <a href="https://virtualreality-nine.vercel.app/" target='blank'>
-                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
-              </a>
-            </div>
+      </div>
+
+      <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[300px] md:h-[400px] bg-cover relative">
+        <img src={proj2} alt="Project Screenshot" className="w-full h-full object-cover" />
+        <div className="opacity-0 group-hover:opacity-100 bg-gray-900/70 absolute inset-0 flex flex-col justify-center items-center transition-opacity duration-300 px-6">
+          <span className="text-2xl font-bold primary-color tracking-wider uppercase text-center">E-Commerce Next JS APP With Stripe Payment</span>
+            <ul className="text-base lg:text-lg list-none mt-4">
+              <li className="mb-2 text-white pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-600 before:text-[36px]"><span className='mr-2 font-bold text-orange-600'>Frameworks & Libraries:</span>NEXT JS, NEXT Auth</li>
+              <li className="mb-2 text-white pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-600 before:text-[36px]"><span className='mr-2 font-bold text-orange-600'>CSS Styling:</span>Tailwind CSS</li>
+              <li className="mb-2 text-white pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-600 before:text-[36px]"><span className='mr-2 font-bold text-orange-600'>Database:</span>MONGODB</li>
+              <li className="mb-2 text-white pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-600 before:text-[36px]"><span className='mr-2 font-bold text-orange-600'>Software & Tools:</span>Visual Studio Code, MongoDB Compass</li>
+            </ul>
+          <div className="pt-8 text-center">
+          <a href="https://amazonpro-chi.vercel.app/" target="_blank" rel="noopener noreferrer" className='px-6 py-3 w-full rounded-xl mr-4 
+          bg-gradient-to-br from-orange-500 to-red-500 text-white'>
+            Live Link</a>
           </div>
         </div>
-        <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-1g 
-        shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative'>
-          <img src={proj3} layout="fill" objectFit="cover" alt="" />
-          <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
-            <span className='text-2x1 font-bold text-white tracking-wider'></span>
-            <div className='pt-8 text-center'>
-              <a href="https://medicare-booking-frontend.vercel.app/" target='blank'>
-                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
-              </a>
-            </div>
+      </div>
+
+      <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[300px] md:h-[400px] bg-cover relative">
+        <img src={proj3} alt="Project Screenshot" className="w-full h-full object-cover" />
+        <div className="opacity-0 group-hover:opacity-100 bg-gray-900/70 absolute inset-0 flex flex-col justify-center items-center transition-opacity duration-300 px-6">
+          <span className="text-2xl font-bold primary-color tracking-wider uppercase text-center">MERN Medicare Booking App with Stripe Payment</span>
+            <ul className="text-base lg:text-lg list-none mt-4">
+              <li className="mb-2 text-white pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-600 before:text-[36px]"><span className='mr-2 font-bold text-orange-600'>Frameworks & Libraries:</span>React JS, Node JS, Express JS</li>
+              <li className="mb-2 text-white pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-600 before:text-[36px]"><span className='mr-2 font-bold text-orange-600'>CSS Styling:</span>Tailwind CSS</li>
+              <li className="mb-2 text-white pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-600 before:text-[36px]"><span className='mr-2 font-bold text-orange-600'>Database:</span>MONGODB</li>
+              <li className="mb-2 text-white pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-600 before:text-[36px]"><span className='mr-2 font-bold text-orange-600'>Software & Tools:</span>Visual Studio Code, Postman, MongoDB Compass</li>
+            </ul>
+          <div className="pt-8 text-center">
+          <a href="https://medicare-booking-frontend.vercel.app/" target="_blank" rel="noopener noreferrer" className='px-6 py-3 w-full rounded-xl mr-4 
+          bg-gradient-to-br from-orange-500 to-red-500 text-white'>
+            Live Link</a>
           </div>
         </div>
+      </div>
+
+      <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[300px] md:h-[400px] bg-cover relative">
+        <img src={proj1} alt="Project Screenshot" className="w-full h-full object-cover" />
+        <div className="opacity-0 group-hover:opacity-100 bg-gray-900/70 absolute inset-0 flex flex-col justify-center items-center transition-opacity duration-300 px-6">
+          <span className="text-2xl font-bold primary-color tracking-wider uppercase text-center">Virtual Reality Frontend APP</span>
+            <ul className="text-base lg:text-lg list-none mt-4">
+              <li className="mb-2 text-white pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-600 before:text-[36px]"><span className='mr-2 font-bold text-orange-600'>Frameworks & Libraries:</span>React JS</li>
+              <li className="mb-2 text-white pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-600 before:text-[36px]"><span className='mr-2 font-bold text-orange-600'>CSS Styling:</span>Tailwind CSS</li>
+              <li className="mb-2 text-white pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-600 before:text-[36px]"><span className='mr-2 font-bold text-orange-600'>Software & Tools:</span>Visual Studio Code</li>
+            </ul>
+          <div className="pt-8 text-center">
+          <a href="https://virtualreality-nine.vercel.app/" target="_blank" rel="noopener noreferrer" className='px-6 py-3 w-full rounded-xl mr-4 
+          bg-gradient-to-br from-orange-500 to-red-500 text-white'>
+            Live Link</a>
+          </div>
+        </div>
+      </div>
+
       </div>
     </div>
   )
