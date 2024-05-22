@@ -3,6 +3,7 @@ import proj1 from '../assets/proj1.jpg'
 import proj2 from '../assets/proj2.jpg'
 import proj3 from '../assets/proj3.jpg'
 import proj4 from '../assets/proj4.jpg'
+import proj5 from '../assets/proj5.jpg'
 
 const Work = () => {
   return (
@@ -15,11 +16,11 @@ const Work = () => {
       </div>
 
       <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-6'>
-        
+
       <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[300px] md:h-[400px] bg-cover relative">
         <img src={proj4} alt="Project Screenshot" className="w-full h-full object-cover" />
-        <div className="opacity-0 group-hover:opacity-100 bg-gray-900/70 absolute inset-0 flex flex-col justify-center items-center transition-opacity duration-300 px-6">
-          <span className="text-2xl font-bold primary-color tracking-wider text-center">MERN CHAT APP with Socket.io</span>
+        <div className="opacity-0 group-hover:opacity-100 bg-black/90 absolute inset-0 flex flex-col justify-center items-center duration-500 ease-in-out transform translate-y-full translate-x-full group-hover:translate-y-0 group-hover:translate-x-0 px-6 shadow-lg m-6 rounded-md">          
+        <span className="text-2xl font-bold primary-color tracking-wider text-center">MERN CHAT APP with Socket.io</span>
             <ul className="text-base lg:text-lg list-none mt-4">
               <li className="mb-2 text-white pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-600 before:text-[36px]"><span className='mr-2 font-bold text-orange-600'>Frameworks & Libraries:</span>React JS, Node JS, Express JS, Socket.IO</li>
               <li className="mb-2 text-white pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-600 before:text-[36px]"><span className='mr-2 font-bold text-orange-600'>CSS Styling:</span>Tailwind CSS & Daisy UI</li>
@@ -36,7 +37,7 @@ const Work = () => {
 
       <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[300px] md:h-[400px] bg-cover relative">
         <img src={proj2} alt="Project Screenshot" className="w-full h-full object-cover" />
-        <div className="opacity-0 group-hover:opacity-100 bg-gray-900/70 absolute inset-0 flex flex-col justify-center items-center transition-opacity duration-300 px-6">
+        <div className="opacity-0 group-hover:opacity-100 bg-black/90 absolute inset-0 flex flex-col justify-center items-center duration-500 ease-in-out transform translate-y-full translate-x-full group-hover:translate-y-0 group-hover:translate-x-0 px-6 shadow-lg m-6 rounded-md">
           <span className="text-2xl font-bold primary-color tracking-wider uppercase text-center">E-Commerce Next JS APP With Stripe Payment</span>
             <ul className="text-base lg:text-lg list-none mt-4">
               <li className="mb-2 text-white pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-600 before:text-[36px]"><span className='mr-2 font-bold text-orange-600'>Frameworks & Libraries:</span>NEXT JS, NEXT Auth</li>
@@ -54,7 +55,7 @@ const Work = () => {
 
       <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[300px] md:h-[400px] bg-cover relative">
         <img src={proj3} alt="Project Screenshot" className="w-full h-full object-cover" />
-        <div className="opacity-0 group-hover:opacity-100 bg-gray-900/70 absolute inset-0 flex flex-col justify-center items-center transition-opacity duration-300 px-6">
+        <div className="opacity-0 group-hover:opacity-100 bg-black/90 absolute inset-0 flex flex-col justify-center items-center duration-500 ease-in-out transform translate-y-full translate-x-full group-hover:translate-y-0 group-hover:translate-x-0 px-6 shadow-lg m-6 rounded-md">
           <span className="text-2xl font-bold primary-color tracking-wider uppercase text-center">MERN Medicare Booking App with Stripe Payment</span>
             <ul className="text-base lg:text-lg list-none mt-4">
               <li className="mb-2 text-white pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-600 before:text-[36px]"><span className='mr-2 font-bold text-orange-600'>Frameworks & Libraries:</span>React JS, Node JS, Express JS</li>
@@ -71,9 +72,26 @@ const Work = () => {
       </div>
 
       <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[300px] md:h-[400px] bg-cover relative">
+        <img src={proj5} alt="Project Screenshot" className="w-full h-full object-cover" />
+        <div className="opacity-0 group-hover:opacity-100 bg-black/90 absolute inset-0 flex flex-col justify-center items-center duration-500 ease-in-out transform translate-y-full translate-x-full group-hover:translate-y-0 group-hover:translate-x-0 px-6 shadow-lg m-6 rounded-md">
+          <span className="text-2xl font-bold primary-color tracking-wider uppercase text-center">React Js Educational Website</span>
+            <ul className="text-base lg:text-lg list-none mt-4">
+              <li className="mb-2 text-white pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-600 before:text-[36px]"><span className='mr-2 font-bold text-orange-600'>Frameworks & Libraries:</span>React JS, Web3Froms</li>
+              <li className="mb-2 text-white pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-600 before:text-[36px]"><span className='mr-2 font-bold text-orange-600'>CSS Styling:</span>CSS3</li>
+              <li className="mb-2 text-white pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-600 before:text-[36px]"><span className='mr-2 font-bold text-orange-600'>Software & Tools:</span>Visual Studio Code</li>
+            </ul>
+          <div className="pt-8 text-center">
+          <a href="https://edusity-nu.vercel.app/" target="_blank" rel="noopener noreferrer" className='px-6 py-3 w-full rounded-xl mr-4 
+          bg-gradient-to-br from-orange-500 to-red-500 text-white'>
+            Live Link</a>
+          </div>
+        </div>
+      </div>
+
+      <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[300px] md:h-[400px] bg-cover relative">
         <img src={proj1} alt="Project Screenshot" className="w-full h-full object-cover" />
-        <div className="opacity-0 group-hover:opacity-100 bg-gray-900/70 absolute inset-0 flex flex-col justify-center items-center transition-opacity duration-300 px-6">
-          <span className="text-2xl font-bold primary-color tracking-wider uppercase text-center">Virtual Reality Frontend APP</span>
+        <div className="opacity-0 group-hover:opacity-100 bg-black/90 absolute inset-0 flex flex-col justify-center items-center duration-500 ease-in-out transform translate-y-full translate-x-full group-hover:translate-y-0 group-hover:translate-x-0 px-6 shadow-lg m-6 rounded-md">
+          <span className="text-2xl font-bold primary-color tracking-wider uppercase text-center text-white">Virtual Reality Frontend APP</span>
             <ul className="text-base lg:text-lg list-none mt-4">
               <li className="mb-2 text-white pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-600 before:text-[36px]"><span className='mr-2 font-bold text-orange-600'>Frameworks & Libraries:</span>React JS</li>
               <li className="mb-2 text-white pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-600 before:text-[36px]"><span className='mr-2 font-bold text-orange-600'>CSS Styling:</span>Tailwind CSS</li>
