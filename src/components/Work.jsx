@@ -13,6 +13,11 @@ const Work = () => {
         <p className='text-white sm:text-lg lg:text-xl'>
           Check out some of my recent work
         </p>
+        <div className='mt-4'>
+        <p className='text-orange-600 font-bold text-lg'>
+        “Hover to get details about work”
+        </p>
+        </div>
       </div>
 
       <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-6'>
