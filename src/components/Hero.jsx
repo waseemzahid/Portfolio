@@ -25,10 +25,10 @@ const Hero = () => {
           />
         </h1>
         <p className='text-white sm:text-lg my-8 lg:text-xl'>
-          My name is Waseem Zahid and I have 1+ year experince in Web Development
+          My name is Waseem Zahid and I have 1+ year experience in React Js, Next Js and MERN Stack and about 1.5 years experience of Frontend(psd to html) + Wordpress.
         </p>
         <div className='my-8'>
-          <a href='https://drive.google.com/uc?export=download&id=1cV38YMxDV0vurDhdjeUYjfkKPJkuvzDZ' className='px-6 py-3 w-full rounded-xl mr-4 
+          <a href='https://drive.google.com/uc?export=download&id=1V-iREp3jUcT-ATHDppWzqD0oS7uPNxtW' className='px-6 py-3 w-full rounded-xl mr-4 
           bg-gradient-to-br from-orange-500 to-red-500 text-white'>
             Download CV</a>
           
