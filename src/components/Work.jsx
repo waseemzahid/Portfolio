@@ -102,6 +102,29 @@ const Work = () => {
         </div>
 
         <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[250px] sm:h-[300px] md:h-[400px] bg-cover relative">
+          <img src={proj7} alt="Project Screenshot" className="w-full h-full object-cover" />
+          <div className="opacity-0 group-hover:opacity-100 bg-black/90 absolute inset-0 flex flex-col justify-center items-center duration-500 ease-in-out transform translate-y-full translate-x-full group-hover:translate-y-0 group-hover:translate-x-0 p-4 md:px-6 shadow-lg m-2 md:m-6 rounded-md">
+            <span className="text-lg md:text-2xl font-bold primary-color tracking-wider text-center">NEXT Js Home Interior Design Website</span>
+            <ul className="text-sm md:text-base lg:text-lg list-none mt-1 md:mt-4">
+              <li className="mb-2 text-white pl-6 md:pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-600 before:text-[24px] md:before:text-[36px]">
+                <span className='mr-2 font-bold text-orange-600'>Frameworks & Libraries:</span>Next Js
+              </li>
+              <li className="mb-2 text-white pl-6 md:pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-600 before:text-[24px] md:before:text-[36px]">
+                <span className='mr-2 font-bold text-orange-600'>CSS Styling:</span>Tailwind CSS, Shad CN, Framer Motion
+              </li>
+              <li className="mb-2 text-white pl-6 md:pl-8 relative before:content-['▹'] before:absolute before:left-0 before:text-orange-600 before:text-[24px] md:before:text-[36px]">
+                <span className='mr-2 font-bold text-orange-600'>Software & Tools:</span>Visual Studio Code
+              </li>
+            </ul>
+            <div className="pt-4 md:pt-6 text-center">
+              <a href="https://home-interior-three.vercel.app/" target="_blank" rel="noopener noreferrer" className='px-2 py-2 md:px-6 md:py-3 w-full rounded-xl mr-0 md:mr-4 bg-gradient-to-br from-orange-500 to-red-500 text-white'>
+                Live Link
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[250px] sm:h-[300px] md:h-[400px] bg-cover relative">
           <img src={proj5} alt="Project Screenshot" className="w-full h-full object-cover" />
           <div className="opacity-0 group-hover:opacity-100 bg-black/90 absolute inset-0 flex flex-col justify-center items-center duration-500 ease-in-out transform translate-y-full translate-x-full group-hover:translate-y-0 group-hover:translate-x-0 p-4 md:px-6 shadow-lg m-2 md:m-6 rounded-md">
             <span className="text-lg md:text-2xl font-bold primary-color tracking-wider text-center">React Js Educational Website</span>
