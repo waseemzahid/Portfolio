@@ -5,6 +5,7 @@ import proj3 from '../assets/proj3.jpg'
 import proj4 from '../assets/proj4.jpg'
 import proj5 from '../assets/proj5.jpg'
 import proj6 from '../assets/proj6.jpg'
+import proj7 from '../assets/proj7.jpg'
 
 const Work = () => {
   return (
